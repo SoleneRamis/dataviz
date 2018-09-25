@@ -119,6 +119,6 @@ body {
     width: 155px;
     height: 382px;
     z-index: 5;
-    transition: transform 200ms ease;
+    transition: transform 2s ease-in-out 0.5s;
     transform: translateY(100%);
 }
