@@ -2,19 +2,40 @@
 <html>
     <head>
         <title>CA BOIT QUOI ?</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     </head>
     <body>
-        <div class="container">
-            <h1 class="title">ca boit quoi ?</h1>
-            <img class="barman" src="assets/svg/barman.svg" alt="logo barman">
-        </div>
-        <div class="scroll">
-            <p class="scrollTitle">scroll my friend</p>
-            <svg class="line" height="10" width="500">
-                <line x1="300" y1="0" x2="0" y2="0" style="stroke:white; stroke-width:2;" />
-            </svg>
-        </div>
+        <div class="view">
+            <!-- home -->
+            <div class="container">
+                <h1 class="title">ca boit quoi ?</h1>
+                <img class="barman" src="assets/img/svg/barman.svg" alt="barman">
+            </div>
+            <div class="scroll">
+                <p class="scrollTitle">scroll my friend</p>
+                <svg class="line" height="10" width="300">
+                    <line x1="300" y1="0" x2="0" y2="0" style="stroke:white; stroke-width:3;" />
+                </svg>
+                <svg class="circle" height="100" width="100">
+                    <circle cx="18" cy="18" r="8" stroke="white" stroke-width="2" fill="transparent" />
+                </svg>
+            </div>
+            <img class="comptoir" src="assets/img/svg/comptoir.svg" alt="comptoir bar">
 
+            <!-- data #1 -->
+            <div class="data1">
+                <img class="brune" src="assets/img/png/brune.png" alt="brune"></img>
+                <div class="liquid"></div>
+            </div>
+        </div>
     </body>
+    <script>
+        var barman = document.querySelector('.barman')
+        var view = document.querySelector('.view')
+        function animate() {
+            requestAnimationFrame(animate)
+            barman.style.transform = "translateX(" + -1 * view.scrollLeft + "px)"
+        }
+        animate()
+    </script>
 </html>
