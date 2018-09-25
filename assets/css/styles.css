@@ -48,6 +48,12 @@ body {
     margin-top: -40px;
 }
 
+@media only screen and (min-width: 1400px) {
+    .barman {
+        padding-left: 45%;
+    }
+}
+
 .scroll {
     display: flex;
     justify-content: flex-start;
@@ -80,8 +86,39 @@ body {
     margin-top: -30px;
 }
 
-@media only screen and (min-width: 1400px) {
-    .barman {
-        padding-left: 45%;
-    }
+.data1 {
+    position: relative;
+    overflow: hidden;
+    width: 155px;
+    height: 382px;
+}
+
+.bottle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 155px;
+    height: 382px;
+}
+
+.backgroundBottle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 155px;
+    height: 382px;
+    background: white;
+    z-index: 5;
+}
+
+.liquid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 155px;
+    height: 382px;
+    z-index: 5;
+    transition: transform 200ms ease;
+    transform: translateY(100%);
 }
