@@ -1,4 +1,4 @@
-$('.bottle').click(function () {
+$('.beer').click(function () {
     setTimeout(function () {
         $('.liquid').css('transform', 'translateY(0%)');
     }, 500)
@@ -15,18 +15,22 @@ function setup(){
     }
     requestAnimationFrame(setup)
 }
-setup()
+// setup()
 
+var view = document.querySelector('.view')
 var title = document.querySelector('.title')
 var subcontainer = document.querySelector('.subcontainer')
 var barman = document.querySelector('.barman')
-var data1 = document.querySelector('.data1')
-var view = document.querySelector('.view')
+var chouffe = document.querySelector('.chouffe')
+var beer86 = document.querySelector('.beer86')
+var lagoulade = document.querySelector('.lagoulade')
 function animate() {
     requestAnimationFrame(animate)
     title.style.transform = "translateX(" + -1 * view.scrollLeft + "px)"
     subcontainer.style.transform = "translateX(" + -1 * view.scrollLeft + "px)"
     barman.style.transform = "translateX(" + -1 * view.scrollLeft + "px)"
-    data1.style.transform = "translateX(" + -0.3 * view.scrollLeft + "px)"
+    chouffe.style.transform = "translateX(" + -0.3 * view.scrollLeft + "px)"
+    beer86.style.transform = "translateX(" + -0.3 * view.scrollLeft + "px)"
+    lagoulade.style.transform = "translateX(" + -0.3 * view.scrollLeft + "px)"
 }
 animate()
