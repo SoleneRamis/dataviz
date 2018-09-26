@@ -12,24 +12,23 @@
     font-family: "AxisLight";
     src: url("../../assets/font/AxisLight.woff") format("woff");
 }
-.titlecontainer {
+
+.beer-titlecontainer {
     position: absolute;
     top: 2%;
     left: 105vw;
 }
 
-.titlecontainer .title {
+.beer-title {
     font-family: EarlyMan;
     color: white;
-    font-size: 30px;
     font-size: 110px;
     width: 5em;
     margin-top: 2%;
 }
 
-.titlecontainer .colon {
+.beer-colon {
     color: white;
-    font-size: 30px;
     font-size: 110px;
     width: 5em;
     top: 20vh;
@@ -37,14 +36,14 @@
     position: absolute;
 }
 
-.textcontainer {
+.beer-textcontainer {
     position: absolute;
     left: 106vw;
     width: 100%;
     bottom: 32vh;
 }
 
-.text {
+.beer-text {
     color: white;
     width: 100%;
     font-family: AxisLight;
@@ -52,39 +51,81 @@
     font-weight: 800;
 }
 
-.instruction {
+.beer-instruction {
     font-family: AxisLight;
     font-size: 11px;
     font-style: italic;
     color: white;
 }
 
-.chouffe {
+.chouffe,
+.beer86,
+.lagoulade {
     position: absolute;
     overflow: hidden;
-    width: 155px;
-    height: 382px;
-    top: 20vh;
-    left: 156vw;
+    width: 100%;
 }
 
-.chouffe .beer {
+.chouffe {
+    height: 382px;
+    top: 13vh;
+    left: 160vw;
+}
+
+.beer86 {
+    height: 250px;
+    top: 45vh;
+    left: 140vw;
+}
+
+.lagoulade {
+    height: 282px;
+    top: 35vh;
+    left: 182vw;
+}
+
+.chouffe .beer,
+.beer86 .beer,
+.lagoulade .beer {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
-    width: 155px;
+}
+
+.chouffe .beer {
     height: 382px;
 }
 
-.chouffe .backgroundBeer {
+.beer86 .beer {
+    height: 253px;
+}
+
+.lagoulade .beer {
+    height: 329px;
+}
+
+.chouffe .backgroundBeer,
+.beer86 .backgroundBeer,
+.lagoulade .backgroundBeer {
     position: absolute;
     top: 0;
     left: 3px;
-    width: 150px;
     height: 382px;
     background: white;
     z-index: 5;
+}
+
+.chouffe .backgroundBeer {
+    width: 150px;
+}
+
+.beer86 .backgroundBeer {
+    width: 170px;
+}
+
+.lagoulade .backgroundBeer {
+    width: 130px;
 }
 
 .chouffe .liquid {
@@ -96,60 +137,4 @@
     z-index: 5;
     transition: transform 2s ease-in-out 0.5s;
     transform: translateY(100%);
-}
-
-.beer86 {
-    position: absolute;
-    overflow: hidden;
-    width: 155px;
-    height: 250px;
-    top: 45vh;
-    left: 140vw;
-}
-
-.beer86 .beer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    width: 155px;
-    height: 253px;
-}
-
-.beer86 .backgroundBeer {
-    position: absolute;
-    top: 0;
-    left: 3px;
-    width: 150px;
-    height: 382px;
-    background: white;
-    z-index: 5;
-}
-
-.lagoulade {
-    position: absolute;
-    overflow: hidden;
-    width: 155px;
-    height: 282px;
-    top: 35vh;
-    left: 171vw;
-}
-
-.lagoulade .beer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    width: 155px;
-    height: 329px;
-}
-
-.lagoulade .backgroundBeer {
-    position: absolute;
-    top: 0;
-    left: 3px;
-    width: 150px;
-    height: 382px;
-    background: white;
-    z-index: 5;
 }

@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "EarlyMan";
+    src: url("../../assets/font/EarlyMan.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Axis";
+    src: url("../../assets/font/Axis.woff") format("woff");
+}
+
+@font-face {
+    font-family: "AxisLight";
+    src: url("../../assets/font/AxisLight.woff") format("woff");
+}
+
+.pression-titlecontainer {
+    position: absolute;
+    top: 2%;
+    left: 258vw;
+}
+
+.pression-title {
+    font-family: EarlyMan;
+    color: white;
+    font-size: 110px;
+    width: 5em;
+    margin-top: 2%;
+    text-align: right
+}
+
+.pression-colon {
+    color: white;
+    font-size: 110px;
+    width: 5em;
+    top: 5vh;
+    left: 38vw;
+    position: absolute;
+}
+
+.pression-textcontainer {
+    position: absolute;
+    left: 278vw;
+    width: 100%;
+    top: 37vh;
+}
+
+.pression-text {
+    color: white;
+    width: 100%;
+    font-family: AxisLight;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.pression-instruction {
+    font-family: AxisLight;
+    font-size: 11px;
+    font-style: italic;
+    color: white;
+}
+
+.blanche,
+.blonde,
+.brune,
+.bad {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.blanche {
+    height: 382px;
+    top: 32vh;
+    left: 240vw;
+}
+
+.blonde {
+    height: 382px;
+    top: 45vh;
+    left: 225vw;
+    z-index: 11;
+}
+
+.brune {
+    height: 382px;
+    top: 49vh;
+    left: 261vw;
+}
+
+.bad {
+    height: 382px;
+    top: 22vh;
+    left: 200vw;
+}
+
+.blanche .beer,
+.blonde .beer,
+.brune .beer,
+.imgBad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 382px;
+}
+
+.blanche .backgroundBeer,
+.blonde .backgroundBeer,
+.brune .backgroundBeer,
+.bad .backgroundBad {
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    height: 378px;
+    background: white;
+    z-index: 5;
+}
+
+.blanche .backgroundBeer {
+    width: 250px;
+}
+
+.blonde .backgroundBeer {
+    width: 160px;
+}
+
+.brune .backgroundBeer {
+    width: 205px;
+}
+
+.bad .backgroundBad {
+    width: 367px;
+}
+
+.blanche .liquid,
+.blonde .liquid,
+.brune .liquid {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    z-index: 5;
+    transition: transform 2s ease-in-out 0.5s;
+    transform: translateY(100%);
+}
+
+.blanche .liquid {
+    width: 201px;
+    height: 382px;
+}
+
+.blonde .liquid {
+    width: 201px;
+    height: 325px;
+}
+
+.brune .liquid {
+    width: 222px;
+    height: 310px;
+}

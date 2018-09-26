@@ -31,7 +31,8 @@ body {
 }
 
 .comptoir {
-    width: 402%;
+    width: 700%;
     position: absolute;
-    bottom: -87px;
+    bottom: -30%;
+    z-index: 11;
 }

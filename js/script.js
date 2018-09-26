@@ -1,16 +1,15 @@
 $('.beer').click(function () {
     setTimeout(function () {
         $('.liquid').css('transform', 'translateY(0%)');
-    }, 500)
+    }, 300)
 })
 
 function setup(){
     var x = window.scrollX;
     var y = window.scrollY;
     window.scrollTo(x, y)
-    console.log(window.pageXOffset, window.innerWidth)
-    if (window.pageXOffset >= window.innerWidth) {
-        console.log('ok');
+    // window.pageXOffset >= window.innerWidth * 2
+    if (window.pageXOffset >= window.innerWidth * 3) {
         $('body').css('overflow', 'hidden');
     }
     requestAnimationFrame(setup)

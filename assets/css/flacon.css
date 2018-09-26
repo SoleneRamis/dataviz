@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "EarlyMan";
+    src: url("../../assets/font/EarlyMan.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Axis";
+    src: url("../../assets/font/Axis.woff") format("woff");
+}
+
+@font-face {
+    font-family: "AxisLight";
+    src: url("../../assets/font/AxisLight.woff") format("woff");
+}
+
+.flacon-titlecontainer {
+    position: absolute;
+    top: 2%;
+    left: 305vw;
+}
+
+.flacon-title {
+    font-family: EarlyMan;
+    color: white;
+    font-size: 110px;
+    width: 7em;
+    margin-top: 2%;
+}
+
+.flacon-textcontainer {
+    position: absolute;
+    left: 341vw;
+    width: 100%;
+    top: 28vh;
+}
+
+.flacon-text {
+    color: white;
+    width: 100%;
+    font-family: AxisLight;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.flacon-instruction {
+    font-family: AxisLight;
+    font-size: 11px;
+    font-style: italic;
+    color: white;
+}
+
+.pack,
+.vin {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.pack {
+    height: 382px;
+    top: 44vh;
+    left: 328vw;
+}
+
+.vin {
+    height: 552px;
+    top: 4vh;
+    left: 382vw;
+}
+
+.pack .alcool,
+.vin .alcool {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 382px;
+}
+
+.vin .alcool {
+    height: 631px;
+}
+
+.pack .backgroundAlcool,
+.vin .backgroundAlcool {
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    height: 378px;
+    background: white;
+    z-index: 5;
+}
+
+.pack .backgroundAlcool {
+    width: 380px;
+}
+
+.vin .backgroundAlcool {
+    width: 184px;
+    height: 560px;
+}
+
+.vin .liquid {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    z-index: 5;
+    transition: transform 2s ease-in-out 0.5s;
+    transform: translateY(100%);
+}
+
+.vin .liquid {
+    width: 225px;
+    height: 508px;
+}
