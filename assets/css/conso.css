@@ -13,28 +13,37 @@
     src: url("../../assets/font/AxisLight.woff") format("woff");
 }
 
-.flacon-titlecontainer {
+.conso-titlecontainer {
     position: absolute;
     top: 2%;
-    left: 305vw;
+    left: 405vw;
 }
 
-.flacon-title {
+.conso-title {
     font-family: EarlyMan;
     color: white;
     font-size: 110px;
-    width: 7em;
+    width: 6em;
     margin-top: 2%;
 }
 
-.flacon-textcontainer {
+.conso-colon {
+    color: white;
+    font-size: 110px;
+    width: 5em;
+    top: -9vh;
+    left: 40vw;
     position: absolute;
-    left: 341vw;
-    width: 100%;
-    top: 28vh;
 }
 
-.flacon-text {
+.conso-textcontainer {
+    position: absolute;
+    left: 405vw;
+    width: 100%;
+    top: 25vh;
+}
+
+.conso-text {
     color: white;
     width: 100%;
     font-family: AxisLight;
@@ -42,82 +51,51 @@
     font-weight: 800;
 }
 
-.flacon-instruction {
-    font-family: AxisLight;
-    font-size: 11px;
-    font-style: italic;
-    color: white;
-}
-
-.blanc,
-.rouge {
+.conso {
     position: absolute;
     overflow: hidden;
     width: 100%;
-}
-
-.blanc {
     height: 382px;
-    top: 44vh;
-    left: 328vw;
+    top: 40vh;
+    left: 415vw;
 }
 
-.rouge {
-    height: 552px;
-    top: 4vh;
-    left: 382vw;
-}
-
-.blanc .alcool,
-.rouge .alcool {
+.conso .alcool {
     position: absolute;
     top: 0;
     left: 0;
+    height: 383px;
     z-index: 10;
-    height: 382px;
 }
 
-.rouge .alcool {
-    height: 631px;
-}
-
-.blanc .background,
-.rouge .background {
+.conso .background {
     position: absolute;
     top: 1px;
     left: 10px;
+    width: 1044px;
     height: 378px;
     background: white;
     z-index: 5;
 }
 
-.blanc .background {
-    width: 380px;
-}
-
-.rouge .background {
-    width: 184px;
-    height: 560px;
-}
-
-.blanc .liquid,
-.rouge .liquid {
+.conso .liquid {
     position: absolute;
     top: 1px;
     left: 1px;
+    width: 523px;
+    height: 531px;
     z-index: 5;
     transition: transform 2s ease-in-out 0.5s;
     transform: translateY(100%);
 }
 
-.blanc .liquid {
-    width: 380px;
-    height: 454px;
-    margin-top: -68px;
-}
-
-.rouge .liquid {
-    width: 225px;
-    height: 380px;
-    margin-top: 145px;
+.conso .liquid1 {
+    position: absolute;
+    top: 1px;
+    left: 40vw;
+    width: 359px;
+    height: 362px;
+    z-index: 5;
+    transition: transform 2s ease-in-out 0.5s;
+    transform: translateY(100%);
 }

@@ -84,30 +84,30 @@
     left: 182vw;
 }
 
-.chouffe .beer,
-.beer86 .beer,
-.lagoulade .beer {
+.chouffe .alcool,
+.beer86 .alcool,
+.lagoulade .alcool {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
 }
 
-.chouffe .beer {
+.chouffe .alcool {
     height: 382px;
 }
 
-.beer86 .beer {
+.beer86 .alcool {
     height: 253px;
 }
 
-.lagoulade .beer {
+.lagoulade .alcool {
     height: 329px;
 }
 
-.chouffe .backgroundBeer,
-.beer86 .backgroundBeer,
-.lagoulade .backgroundBeer {
+.chouffe .background,
+.beer86 .background,
+.lagoulade .background {
     position: absolute;
     top: 0;
     left: 3px;
@@ -116,15 +116,15 @@
     z-index: 5;
 }
 
-.chouffe .backgroundBeer {
+.chouffe .background {
     width: 150px;
 }
 
-.beer86 .backgroundBeer {
+.beer86 .background {
     width: 170px;
 }
 
-.lagoulade .backgroundBeer {
+.lagoulade .background {
     width: 130px;
 }
 

@@ -93,21 +93,21 @@
     left: 200vw;
 }
 
-.blanche .beer,
-.blonde .beer,
-.brune .beer,
-.imgBad {
+.blanche .alcool,
+.blonde .alcool,
+.brune .alcool,
+.bad .alcool {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
-    height: 382px;
+    height: 383px;
 }
 
-.blanche .backgroundBeer,
-.blonde .backgroundBeer,
-.brune .backgroundBeer,
-.bad .backgroundBad {
+.blanche .background,
+.blonde .background,
+.brune .background,
+.bad .background {
     position: absolute;
     top: 1px;
     left: 10px;
@@ -116,19 +116,19 @@
     z-index: 5;
 }
 
-.blanche .backgroundBeer {
+.blanche .background {
     width: 250px;
 }
 
-.blonde .backgroundBeer {
+.blonde .background {
     width: 160px;
 }
 
-.brune .backgroundBeer {
+.brune .background {
     width: 205px;
 }
 
-.bad .backgroundBad {
+.bad .background {
     width: 367px;
 }
 
@@ -145,7 +145,7 @@
 
 .blanche .liquid {
     width: 201px;
-    height: 382px;
+    height: 380px;
 }
 
 .blonde .liquid {
@@ -155,5 +155,5 @@
 
 .brune .liquid {
     width: 222px;
-    height: 310px;
+    height: 350px;
 }
