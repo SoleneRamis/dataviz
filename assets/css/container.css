@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "EarlyMan";
+    src: url("../../assets/font/EarlyMan.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Axis";
+    src: url("../../assets/font/Axis.woff") format("woff");
+}
+
+@font-face {
+    font-family: "AxisLight";
+    src: url("../../assets/font/AxisLight.woff") format("woff");
+}
+
+.container {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+}
+
+.title-start {
+    font-family: EarlyMan;
+    color: white;
+    font-size: 30px;
+    font-size: 110px;
+    width: 5em;
+    margin-top: 2%;
+}
+
+.title-end {
+    font-family: EarlyMan;
+    color: white;
+    font-size: 30px;
+    font-size: 110px;
+    width: 6em;
+    margin-top: -6%;
+    margin-left: 6%;
+}
+
+.barman {
+    width: 35em;
+    position: absolute;
+    top: 5%;
+    left: 50vw;
+}

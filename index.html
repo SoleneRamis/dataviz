@@ -2,44 +2,69 @@
 <html>
     <head>
         <title>CA BOIT QUOI ?</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/root.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/container.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/subcontainer.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/data-beer.css">
     </head>
     <body>
         <div class="view">
             <div class="container">
                 <!-- home -->
-                <h1 class="title">que puis-je vous servir ?</h1>
+                <div class="title">
+                    <h1 class="title-start">que puis-je</h1>
+                    <h1 class="title-end">vous servir ?</h1>
+                </div>
                 <img class="barman" src="assets/img/svg/barman.svg" alt="barman">
-                <!-- data #1 -->
-                <div class="data1">
-                    <img class="bottle" src="assets/img/png/chouffe.png" alt="chouffe bottle">
-                    <div class="backgroundBottle"></div>
-                    <img class="liquid" src="assets/img/jpg/liquidBeer.jpg" alt="#">
+            </div>
+            <div class="subcontainer">
+                <p class="subtitle">Découvrez le taux d'alcoolémie des BDDI:</p>
+                <div class="scroll">
+                    <p class="scrollText">scroll my friend</p>
+                    <svg class="line" height="10" width="300">
+                        <line x1="300" y1="0" x2="0" y2="0" style="stroke:white; stroke-width:3;" />
+                    </svg>
+                    <svg class="circle" height="100" width="100">
+                        <circle cx="18" cy="18" r="8" stroke="white" stroke-width="2" fill="transparent" />
+                    </svg>
                 </div>
             </div>
-            <div class="scroll">
-                <p class="scrollTitle">scroll my friend</p>
-                <svg class="line" height="10" width="300">
-                    <line x1="300" y1="0" x2="0" y2="0" style="stroke:white; stroke-width:3;" />
-                </svg>
-                <svg class="circle" height="100" width="100">
-                    <circle cx="18" cy="18" r="8" stroke="white" stroke-width="2" fill="transparent" />
-                </svg>
+
+            <!-- slide #1 -->
+            <div class="titlecontainer">
+                <h1 class="title">Apéro
+                    <br/>sur les
+                    <br/>quais
+                </h1>
+                <h1 class="colon">:</h1>
             </div>
+            <div class="textcontainer">
+                <span class="text">Un bon BDDI est prévoyant.
+                    <br/>Est ce le rapport quantité/prix ou
+                    <br/>quantité/degré d’alcool qui prime?</span>
+                <br/>
+                <span class="instruction">(cliquez sur une des bouteilles pour valider ta réponse)</span>
+            </div>
+            <div class="chouffe">
+                <img class="beer" src="assets/img/png/chouffe.png" alt="chouffe beer">
+                <div class="backgroundBeer"></div>
+                <img class="liquid" src="assets/img/jpg/liquidBeer.jpg" alt="#">
+            </div>
+            <div class="beer86">
+                <img class="beer" src="assets/img/png/86.png" alt="chouffe beer">
+                <div class="backgroundBeer"></div>
+                <div class="liquid"></div>
+            </div>
+            <div class="lagoulade">
+                <img class="beer" src="assets/img/png/lagoulade.png" alt="lagoulade beer">
+                <div class="backgroundBeer"></div>
+                <div class="liquid"></div>
+            </div>
+
+
             <img class="comptoir" src="assets/img/svg/comptoir.svg" alt="comptoir bar">
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script src="js/script.js"></script>
     </body>
-    <script>
-        var barman = document.querySelector('.barman')
-        var data1 = document.querySelector('.data1')
-        var view = document.querySelector('.view')
-        function animate() {
-            requestAnimationFrame(animate)
-            barman.style.transform = "translateX(" + -1 * view.scrollLeft + "px)"
-            data1.style.transform = "translateX(" + -0.3 * view.scrollLeft + "px)"
-        }
-        animate()
-    </script>
 </html>

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "EarlyMan";
+    src: url("../../assets/font/EarlyMan.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Axis";
+    src: url("../../assets/font/Axis.woff") format("woff");
+}
+
+@font-face {
+    font-family: "AxisLight";
+    src: url("../../assets/font/AxisLight.woff") format("woff");
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+}
+
+.subtitle {
+    color: white;
+    font-family: Axis;
+    text-transform: uppercase;
+    margin-top: 1px;
+    width: 229px;
+}
+
+.scroll {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.scrollText {
+    font-family: Axis;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.line {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.circle {
+    margin-top: -7px;
+    margin-left: -9px;
+}

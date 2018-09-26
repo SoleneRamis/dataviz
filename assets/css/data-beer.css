@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "EarlyMan";
+    src: url("../../assets/font/EarlyMan.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Axis";
+    src: url("../../assets/font/Axis.woff") format("woff");
+}
+
+@font-face {
+    font-family: "AxisLight";
+    src: url("../../assets/font/AxisLight.woff") format("woff");
+}
+
+.titlecontainer {
+    position: absolute;
+    top: 2%;
+    left: 105vw;
+}
+
+.titlecontainer .title {
+    font-family: EarlyMan;
+    color: white;
+    font-size: 30px;
+    font-size: 110px;
+    width: 5em;
+    margin-top: 2%;
+}
+
+.titlecontainer .colon {
+    color: white;
+    font-size: 30px;
+    font-size: 110px;
+    width: 5em;
+    top: 20vh;
+    left: 17vw;
+    position: absolute;
+}
+
+.textcontainer {
+    position: absolute;
+    left: 106vw;
+    width: 100%;
+    bottom: 32vh;
+}
+
+.text {
+    color: white;
+    width: 100%;
+    font-family: AxisLight;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.instruction {
+    font-family: AxisLight;
+    font-size: 11px;
+    font-style: italic;
+    color: white;
+}
+
+.chouffe {
+    position: absolute;
+    overflow: hidden;
+    width: 155px;
+    height: 382px;
+    top: 20vh;
+    left: 156vw;
+}
+
+.chouffe .beer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 155px;
+    height: 382px;
+}
+
+.chouffe .backgroundBeer {
+    position: absolute;
+    top: 0;
+    left: 3px;
+    width: 150px;
+    height: 382px;
+    background: white;
+    z-index: 5;
+}
+
+.chouffe .liquid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 155px;
+    height: 382px;
+    z-index: 5;
+    transition: transform 2s ease-in-out 0.5s;
+    transform: translateY(100%);
+}
+
+.beer86 {
+    position: absolute;
+    overflow: hidden;
+    width: 155px;
+    height: 250px;
+    top: 45vh;
+    left: 140vw;
+}
+
+.beer86 .beer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 155px;
+    height: 253px;
+}
+
+.beer86 .backgroundBeer {
+    position: absolute;
+    top: 0;
+    left: 3px;
+    width: 150px;
+    height: 382px;
+    background: white;
+    z-index: 5;
+}
+
+.lagoulade {
+    position: absolute;
+    overflow: hidden;
+    width: 155px;
+    height: 282px;
+    top: 35vh;
+    left: 171vw;
+}
+
+.lagoulade .beer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 155px;
+    height: 329px;
+}
+
+.lagoulade .backgroundBeer {
+    position: absolute;
+    top: 0;
+    left: 3px;
+    width: 150px;
+    height: 382px;
+    background: white;
+    z-index: 5;
+}
