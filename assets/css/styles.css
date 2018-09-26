@@ -38,21 +38,21 @@ body {
     color: white;
     font-size: 30px;
     font-size: 110px;
-    width: 20px;
-    margin-top: 4%;
+    width: 316px;
+    margin-top: 2%;
 }
 
 .barman {
     width: 30em;
     padding-left: 30%;
-    margin-top: -40px;
+    margin-top: -67px;
 }
 
-@media only screen and (min-width: 1400px) {
+/* @media only screen and (min-width: 1400px) {
     .barman {
         padding-left: 45%;
     }
-}
+} */
 
 .scroll {
     display: flex;
@@ -60,6 +60,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     margin-left: 4%;
+    margin-top: -3%;
 }
 
 .scrollTitle {
@@ -82,8 +83,7 @@ body {
 .comptoir {
     width: 402%;
     /* 384% */
-    margin-left: -5%;
-    margin-top: -30px;
+    margin-top: -63px;
 }
 
 .data1 {
@@ -91,6 +91,8 @@ body {
     overflow: hidden;
     width: 155px;
     height: 382px;
+    left: 20%;
+    margin-top: 12%;
 }
 
 .bottle {

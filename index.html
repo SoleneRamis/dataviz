@@ -8,7 +8,7 @@
         <div class="view">
             <div class="container">
                 <!-- home -->
-                <h1 class="title">ca boit quoi ?</h1>
+                <h1 class="title">que puis-je vous servir ?</h1>
                 <img class="barman" src="assets/img/svg/barman.svg" alt="barman">
                 <!-- data #1 -->
                 <div class="data1">
@@ -33,10 +33,12 @@
     </body>
     <script>
         var barman = document.querySelector('.barman')
+        var data1 = document.querySelector('.data1')
         var view = document.querySelector('.view')
         function animate() {
             requestAnimationFrame(animate)
             barman.style.transform = "translateX(" + -1 * view.scrollLeft + "px)"
+            data1.style.transform = "translateX(" + -0.3 * view.scrollLeft + "px)"
         }
         animate()
     </script>
