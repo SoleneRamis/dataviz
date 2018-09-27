@@ -1,0 +1,31 @@
+.barmanfin {
+    position: absolute;
+    top: 10vh;
+    left: 606vw;
+    /* 623vw; */
+    width: 454px;
+}
+
+.bierefin {
+    position: absolute;
+    top: 39vh;
+    left: 631vw;
+    width: 173px;
+    z-index: 11;
+}
+
+.sponsor {
+    position: absolute;
+    top: 4vh;
+    left: 667vw;
+    width: 513px;
+    z-index: 11;
+}
+
+.frites {
+    position: absolute;
+    top: 51vh;
+    left: 671vw;
+    width: 354px;
+    z-index: 13;
+}

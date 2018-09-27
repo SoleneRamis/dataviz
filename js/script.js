@@ -9,13 +9,26 @@ function setup(){
     var x = window.scrollX;
     var y = window.scrollY;
     window.scrollTo(x, y)
-    // window.pageXOffset >= window.innerWidth * 2
-    if (window.pageXOffset >= window.innerWidth * 5) {
+    if (window.pageXOffset >= window.innerWidth * 6) {
         $('body').css('overflow', 'hidden');
     }
     requestAnimationFrame(setup)
 }
-setup()
+// setup()
+
+function leftanimation() {
+    var x = window.scrollX;
+    var y = window.scrollY;
+    window.scrollTo(x, y)
+    if (window.pageXOffset >= window.innerWidth * 6) {
+        $('.barmanfin').css('transform', 'translateX(250px)');
+        $('.barmanfin').css('transition', 'transform 5s ease -in -out 5s');
+    }else{
+        $('.barmanfin').css('transform', 'translateX(0px)');
+    }
+    requestAnimationFrame(leftanimation)
+}
+leftanimation()
 
 var view = document.querySelector('.view')
 var title = document.querySelector('.title')
@@ -31,6 +44,7 @@ var bad = document.querySelector('.bad')
 var blanc = document.querySelector('.blanc')
 var rouge = document.querySelector('.rouge')
 var conso = document.querySelector('.conso')
+var bierefin = document.querySelector('.bierefin')
 
 
 
@@ -49,5 +63,6 @@ function animate() {
     blanc.style.transform = "translateX(" + -0.3 * view.scrollLeft + "px)"
     rouge.style.transform = "translateX(" + -0.3 * view.scrollLeft + "px)"
     conso.style.transform = "translateX(" + -0.8 * view.scrollLeft + "px)"
+    bierefin.style.transform = "translateX(" + -0.8 * view.scrollLeft + "px)"
 }
 animate()
