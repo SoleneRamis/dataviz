@@ -16,19 +16,19 @@ function setup(){
 }
 // setup()
 
-function leftanimation() {
+function animationBarman() {
     var x = window.scrollX;
     var y = window.scrollY;
     window.scrollTo(x, y)
-    if (window.pageXOffset >= window.innerWidth * 6) {
-        $('.barmanfin').css('transform', 'translateX(250px)');
-        $('.barmanfin').css('transition', 'transform 5s ease -in -out 5s');
-    }else{
-        $('.barmanfin').css('transform', 'translateX(0px)');
-    }
-    requestAnimationFrame(leftanimation)
+    var barman = document.querySelector(".barmanfin");
+    var Left = barman.offsetLeft;
+    var translation = Math.min(234, Math.max( 0, x + window.innerWidth - Left - barman.offsetWidth ) );
+    console.log(translation);
+    barman.style.transform = 'translate3d(' + translation + 'px,0,0)';
+
+    requestAnimationFrame(animationBarman)
 }
-leftanimation()
+animationBarman()
 
 var view = document.querySelector('.view')
 var title = document.querySelector('.title')
@@ -45,8 +45,6 @@ var blanc = document.querySelector('.blanc')
 var rouge = document.querySelector('.rouge')
 var conso = document.querySelector('.conso')
 var bierefin = document.querySelector('.bierefin')
-
-
 
 function animate() {
     requestAnimationFrame(animate)
