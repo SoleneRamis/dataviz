@@ -1,169 +1,186 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>BBD'IVRE</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/root.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/container.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/subcontainer.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/beer.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/pression.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/flacon.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/conso.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/addition.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/barmanfin.css">
-    </head>
-    <body>
-        <div class="view">
-            <div class="container">
-                <div class="title">
-                    <h1 class="title-start">que puis-je</h1>
-                    <h1 class="title-end">vous servir ?</h1>
-                </div>
-                <img class="barman" src="assets/img/svg/barman.svg" alt="barman">
-            </div>
-            <div class="subcontainer">
-                <p class="subtitle">Découvrez le taux d'alcoolémie des BDDI:</p>
-                <div class="scroll">
-                    <p class="scrollText">scroll my friend</p>
-                    <svg class="line" height="10" width="300">
-                        <line x1="300" y1="0" x2="0" y2="0" style="stroke:white; stroke-width:3;" />
-                    </svg>
-                    <svg class="circle" height="100" width="100">
-                        <circle cx="18" cy="18" r="8" stroke="white" stroke-width="2" fill="transparent" />
-                    </svg>
-                </div>
-            </div>
 
-            <!-- slide #1 -->
-            <div class="beer-titlecontainer">
-                <h1 class="beer-title">Apéro
-                <br/>sur les
-                <br/>quais
-                </h1>
-                <h1 class="beer-colon">:</h1>
-            </div>
-            <div class="beer-textcontainer">
-                <span class="beer-text">Un bon BDDI est prévoyant.
-                <br/>Est ce le rapport quantité/prix ou
-                <br/>quantité/degré d’alcool qui prime?
-                </span>
-                <br/>
-                <span class="beer-instruction">(cliquez sur un des verres pour afficher le résultat)</span>
-            </div>
-            <div class="chouffe">
-                <img class="alcool" src="assets/img/png/chouffe.png" alt="chouffe biere">
-                <div class="background"></div>
-                <img class="liquid" src="assets/img/jpg/beer.jpg" alt="liquide chouffe">
-            </div>
-            <div class="beer86">
-                <img class="alcool" src="assets/img/png/86.png" alt="chouffe biere">
-                <div class="background"></div>
-                <div class="liquid"></div>
-            </div>
-            <div class="lagoulade">
-                <img class="alcool" src="assets/img/png/lagoulade.png" alt="lagoulade biere">
-                <div class="background"></div>
-                <div class="liquid"></div>
-            </div>
+<head>
+    <title>BBD'IVRE</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/root.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/container.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/subcontainer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/beer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/pression.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/flacon.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/conso.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/addition.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/barmanfin.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+</head>
 
-            <!-- slide #2 -->
-            <div class="pression-titlecontainer">
-                <h1 class="pression-title">Sous
-                <br/>pression
-                </h1>
-                <h1 class="pression-colon">:</h1>
+<body>
+    <div class="view">
+        <div class="container">
+            <div class="title">
+                <h1 class="title-start">que puis-je</h1>
+                <h1 class="title-end">vous servir ?</h1>
             </div>
-            <div class="pression-textcontainer">
-                <span class="pression-text">Une préférence pour relâcher la pression?</span>
-                <br/>
-                <span class="pression-instruction">(cliquez sur un des verres pour afficher le résultat)</span>
+            <img class="barman" src="assets/img/svg/barman.svg" alt="barman">
+        </div>
+        <div class="subcontainer">
+            <p class="subtitle">Découvrez le taux d'alcoolémie des BDDI:</p>
+            <div class="scroll">
+                <p class="scrollText">scroll my friend</p>
+                <svg class="line" height="10" width="300">
+                    <line x1="300" y1="0" x2="0" y2="0" style="stroke:white; stroke-width:3;" />
+                </svg>
+                <svg class="circle" height="100" width="100">
+                    <circle cx="18" cy="18" r="8" stroke="white" stroke-width="2" fill="transparent" />
+                </svg>
             </div>
-            <div class="blanche">
-                <img class="alcool" src="assets/img/png/blanche.png" alt="blanche pression">
-                <div class="background"></div>
-                <img class="liquid" src="assets/img/png/liquidblanche.png" alt="liquide blanche">
-            </div>
-            <div class="blonde">
-                <img class="alcool" src="assets/img/png/blonde.png" alt="blonde pression">
-                <div class="background"></div>
-                <img class="liquid" src="assets/img/png/liquidblonde.png" alt="liquide blonde">
-            </div>
-            <div class="brune">
-                <img class="alcool" src="assets/img/png/brune.png" alt="brune pression">
-                <div class="background"></div>
-                <img class="liquid" src="assets/img/png/liquidbrune.png" alt="liquide brune">
-            </div>
-            <div class="bad">
-                <img class="alcool" src="assets/img/png/bad.png" alt="aucun">
-                <div class="background"></div>
-                <div class="liquid"></div>
-            </div>
-
-            <!-- slide #3 -->
-            <div class="flacon-titlecontainer">
-                <h1 class="flacon-title">Peut importe
-                <br/>le flacon?
-                </h1>
-            </div>
-            <div class="flacon-textcontainer">
-                <span class="flacon-text">D’après toi, sachant qu’il n’a pas
-                <br/>encore touché sa première paye,
-                <br/>le BDDI est-il radin ou bourgeois?
-                </span>
-                <br/>
-                <span class="flacon-instruction">(cliquez sur un des flacons pour afficher le résultat)</span>
-            </div>
-            <div class="blanc">
-                <img class="alcool" src="assets/img/png/pack.png" alt="vin blanc">
-                <div class="background"></div>
-                <img class="liquid" src="assets/img/png/blanc.png" alt="liquide vin">
-            </div>
-            <div class="rouge">
-                <img class="alcool" src="assets/img/png/vin.png" alt="vin rouge">
-                <div class="background"></div>
-                <img class="liquid" src="assets/img/png/rouge.png" alt="liquide vin">
-            </div>
-
-            <!-- slide #4 -->
-            <div class="conso-titlecontainer">
-                <h1 class="conso-title">Conso hebdo</h1>
-                <h1 class="conso-colon">:</h1>
-            </div>
-            <div class="conso-textcontainer">
-                <span class="conso-text">Clique sur les verres pour découvrir
-                <br/>combien un BDDI s’en jette derriere la cravatte
-                <br/>chaque semaine en moyenne.
-                </span>
-            </div>
-            <div class="conso">
-                <img class="alcool" src="assets/img/png/verres.png" alt="vin blanc">
-                <div class="background"></div>
-                <img class="liquid" src="assets/img/jpg/beer.jpg" alt="liquide vin">
-                <img class="liquid1" src="assets/img/jpg/beer.jpg" alt="liquide vin">
-            </div>
-            <!-- slide #4 -->
-            <div class="addition-titlecontainer">
-                <h1 class="addition-title">Garcon!</h1>
-                <h1 class="addition-hyphen">-</h1>
-                <h1 class="addition-subtitle">l'addition!</h1>
-                </h1>
-            </div>
-            <div class="addition">
-                <img class="addition107" src="assets/img/svg/addition107.svg" alt="addition 107 euros">
-                <img class="addition17" src="assets/img/svg/addition17.svg" alt="addition 17 euros">
-                <img class="addition4" src="assets/img/svg/addition4.svg" alt="addition 4 euros">
-            </div>
-
-            <!-- slide #5 -->
-            <img class="barmanfin" src="assets/img/svg/barmanfin.svg" alt="barman">
-            <img class="bierefin" src="assets/img/svg/bierefin.svg" alt="biere">
-            <img class="sponsor" src="assets/img/svg/sponsor.svg" alt="biere">
-            <img class="frites" src="assets/img/svg/frites.svg" alt="biere">
-
-            <img class="comptoir" src="assets/img/svg/comptoir.svg" alt="comptoir bar">
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-        <script src="js/script.js"></script>
-    </body>
+        <!-- slide #1 -->
+        <div class="beer-titlecontainer">
+            <h1 class="beer-title">Apéro
+                <br/>sur les
+                <br/>quais
+            </h1>
+            <h1 class="beer-colon">:</h1>
+        </div>
+        <div class="beer-textcontainer">
+            <span class="beer-text">Un bon BDDI est prévoyant.
+                <br/>Est ce le rapport quantité/prix ou
+                <br/>quantité/degré d’alcool qui prime ?
+            </span>
+            <br/>
+            <span class="beer-instruction">(cliquez sur un des verres pour afficher le résultat)</span>
+        </div>
+        <h2 class="data data-chouffe"></h2>
+        <div class="chouffe">
+            <img class="alcool beerPackage" src="assets/img/png/chouffe.png" alt="chouffe biere" attr="beerPackage" indexQuestion="1"
+                indexAlcool="Chouffe">
+            <div class="background"></div>
+            <img class="liquid" src="assets/img/png/blanchesmall.png" alt="liquide chouffe">
+        </div>
+        <h2 class="data data-86"></h2>
+        <div class="beer86">
+            <img class="alcool beerPackage" src="assets/img/png/86.png" alt="chouffe biere" attr="beerPackage" indexQuestion="1" indexAlcool="86">
+            <div class="background"></div>
+            <img class="liquid" src="assets/img/png/blanchesmall.png" alt="liquide 86">
+        </div>
+        <h2 class="data data-goulade"></h2>
+        <div class="lagoulade">
+            <img class="alcool beerPackage" src="assets/img/png/lagoulade.png" alt="lagoulade biere" attr="beerPackage" indexQuestion="1"
+                indexAlcool="Goulade">
+            <div class="background"></div>
+            <img class="liquid" src="assets/img/png/blanchesmall.png" alt="liquide lagoulade">
+        </div>
+
+        <!-- slide #2 -->
+        <div class="pression-titlecontainer">
+            <h1 class="pression-title">Sous
+                <br/>pression
+            </h1>
+            <h1 class="pression-colon">:</h1>
+        </div>
+        <div class="pression-textcontainer">
+            <span class="pression-text">Une préférence pour relâcher la pression ?</span>
+            <br/>
+            <span class="pression-instruction">(cliquez sur un des verres pour afficher le résultat)</span>
+        </div>
+        <h2 class="data data-blanche"></h2>
+        <div class="blanche">
+            <img class="alcool pressionPackage" src="assets/img/png/blanche.png" alt="blanche pression" attr="pressionPackage" indexQuestion="0"
+                indexAlcool="Blanche">
+            <div class="background"></div>
+            <img class="liquid" src="assets/img/png/blanchesmall.png" alt="liquide blanche">
+        </div>
+        <h2 class="data data-blonde"></h2>
+        <div class="blonde">
+            <img class="alcool pressionPackage" src="assets/img/png/blonde.png" alt="blonde pression" attr="pressionPackage" indexQuestion="0"
+                indexAlcool="Blonde">
+            <div class="background"></div>
+            <img class="liquid" src="assets/img/png/blondesmall.png" alt="liquide blonde">
+        </div>
+        <h2 class="data data-brune"></h2>
+        <div class="brune">
+            <img class="alcool pressionPackage" src="assets/img/png/brune.png" alt="brune pression" attr="pressionPackage" indexQuestion="0"
+                indexAlcool="Brune">
+            <div class="background"></div>
+            <img class="liquid" src="assets/img/png/brunesmall.png" alt="liquide brune">
+        </div>
+        <h2 class="data data-bad"></h2>
+        <div class="bad">
+            <img class="alcool pressionPackage" src="assets/img/png/bad.png" alt="aucun" attr="pressionPackage" indexQuestion="0" indexAlcool="Aucun">
+            <div class="background"></div>
+            <div class="liquid"></div>
+        </div>
+
+        <!-- slide #3 -->
+        <div class="flacon-titlecontainer">
+            <h1 class="flacon-title">Peut importe
+                <br/>le flacon ?
+            </h1>
+        </div>
+        <div class="flacon-textcontainer">
+            <span class="flacon-text">D’après toi, sachant qu’il n’a pas
+                <br/>encore touché sa première paye,
+                <br/>le BDDI est-il radin ou bourgeois ?
+            </span>
+            <br/>
+            <span class="flacon-instruction">(cliquez sur un des flacons pour afficher le résultat)</span>
+        </div>
+        <h2 class="data data-blanc"></h2>
+        <div class="blanc">
+            <img class="alcool vinPackage" src="assets/img/png/pack.png" alt="vin blanc" attr="vinPackage" indexQuestion="2" indexAlcool="Villageoise">
+            <div class="background"></div>
+            <img class="liquid" src="assets/img/png/blanc.png" alt="liquide vin">
+        </div>
+        <h2 class="data data-rouge"></h2>
+        <div class="rouge">
+            <img class="alcool vinPackage" src="assets/img/png/vin.png" alt="vin rouge" attr="vinPackage" indexQuestion="2" indexAlcool="Chateau">
+            <div class="background"></div>
+            <img class="liquid" src="assets/img/png/rouge.png" alt="liquide vin">
+        </div>
+
+        <!-- slide #4 -->
+        <div class="conso-titlecontainer">
+            <h1 class="conso-title">Conso hebdo</h1>
+            <h1 class="conso-colon">:</h1>
+        </div>
+        <div class="conso-textcontainer">
+            <span class="conso-text">Clique sur les verres pour découvrir
+                <br/>combien un BDDI s’en jette derriere la cravatte
+                <br/>chaque semaine en moyenne ?
+            </span>
+        </div>
+        <h2 class="data data-conso"></h2>
+        <div class="conso">
+            <img class="alcool consoPackage" src="assets/img/png/verres.png" alt="vin blanc" attr="consoPackage" indexQuestion="3" indexAlcool="3-7 verres">
+            <div class="background"></div>
+            <img class="liquid" src="assets/img/png/blanchesmall.png" alt="liquide biere">
+        </div>
+        <!-- slide #4 -->
+        <div class="addition-titlecontainer">
+            <h1 class="addition-title">Garcon!</h1>
+            <h1 class="addition-hyphen">-</h1>
+            <h1 class="addition-subtitle">l'addition!</h1>
+            </h1>
+        </div>
+        <div class="addition">
+            <img class="addition107" src="assets/img/svg/addition107.svg" alt="addition 107 euros">
+            <img class="addition17" src="assets/img/svg/addition17.svg" alt="addition 17 euros">
+            <img class="addition4" src="assets/img/svg/addition4.svg" alt="addition 4 euros">
+        </div>
+
+        <!-- slide #5 -->
+        <img class="barmanfin" src="assets/img/svg/barmanfin.svg" alt="barman">
+        <img class="bierefin" src="assets/img/svg/bierefin.svg" alt="biere">
+        <img class="sponsor" src="assets/img/svg/sponsor.svg" alt="biere">
+        <img class="frites" src="assets/img/svg/frites.svg" alt="biere">
+
+        <img class="comptoir" src="assets/img/svg/comptoir.svg" alt="comptoir bar">
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
 </html>

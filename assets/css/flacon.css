@@ -92,7 +92,7 @@
 }
 
 .blanc .background {
-    width: 380px;
+    width: 365px;
 }
 
 .rouge .background {
@@ -111,7 +111,7 @@
 }
 
 .blanc .liquid {
-    width: 380px;
+    width: 372px;
     height: 454px;
     margin-top: -68px;
 }
@@ -120,4 +120,14 @@
     width: 225px;
     height: 380px;
     margin-top: 145px;
+}
+
+.data-blanc {
+    top: 39vh;
+    left: 356vw;
+}
+
+.data-rouge {
+    top: 10vh;
+    left: 377vw;
 }

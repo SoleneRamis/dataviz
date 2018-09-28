@@ -1,0 +1,156 @@
+[
+    {
+        "PRESSION": "blanche",
+        "BIERE": "chouffe",
+        "VIN": "chateau",
+        "CONSO": "1-3 verres",
+        "ADDITION": "15-40 €"
+    },
+    {
+        "PRESSION": "blonde",
+        "BIERE": "chouffe",
+        "VIN": "chateau",
+        "CONSO": "3-7 verres",
+        "ADDITION": "15-40 €"
+    },
+    {
+        "PRESSION": "blanche",
+        "BIERE": "",
+        "VIN": "aucun",
+        "CONSO": "<1 verre",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "brune",
+        "BIERE": "chouffe",
+        "VIN": "chateau",
+        "CONSO": "3-7 verres",
+        "ADDITION": "15-40 €"
+    },
+    {
+        "PRESSION": "blanche",
+        "BIERE": "86",
+        "VIN": "aucun",
+        "CONSO": "1-2 teilles",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "blonde",
+        "BIERE": "chouffe",
+        "VIN": "aucun",
+        "CONSO": "3-7 verres",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "blonde",
+        "BIERE": "chouffe",
+        "VIN": "chateau",
+        "CONSO": ">2 teilles",
+        "ADDITION": "15-40 €"
+    },
+    {
+        "PRESSION": "blanche",
+        "BIERE": "goudale",
+        "VIN": "chateau",
+        "CONSO": ">2 teilles",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "blonde",
+        "BIERE": "goudale",
+        "VIN": "chateau",
+        "CONSO": "1-2 teilles",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "aucun",
+        "BIERE": "chouffe",
+        "VIN": "aucun",
+        "CONSO": "1-3 verres",
+        "ADDITION": "40-100 €"
+    },
+    {
+        "PRESSION": "aucun",
+        "BIERE": "",
+        "VIN": "villageoise",
+        "CONSO": "1-3 verres",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "blanche",
+        "BIERE": "chouffe",
+        "VIN": "chateau",
+        "CONSO": "3-7 verres",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "blanche",
+        "BIERE": "chouffe",
+        "VIN": "aucun",
+        "CONSO": "3-7 verres",
+        "ADDITION": "15-40 €"
+    },
+    {
+        "PRESSION": "blonde",
+        "BIERE": "86",
+        "VIN": "villageoise",
+        "CONSO": "1-3 verres",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "blonde",
+        "BIERE": "goudale",
+        "VIN": "aucun",
+        "CONSO": "1-2 teilles",
+        "ADDITION": "15-40 €"
+    },
+    {
+        "PRESSION": "blanche",
+        "BIERE": "86",
+        "VIN": "chateau",
+        "CONSO": "3-7 verres",
+        "ADDITION": "15-40 €"
+    },
+    {
+        "PRESSION": "blonde",
+        "BIERE": "chouffe",
+        "VIN": "aucun",
+        "CONSO": "<1 verre",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "blanche",
+        "BIERE": "goudale",
+        "VIN": "chateau",
+        "CONSO": "3-7 verres",
+        "ADDITION": "15-40 €"
+    },
+    {
+        "PRESSION": "blonde",
+        "BIERE": "chouffe",
+        "VIN": "aucun",
+        "CONSO": "1-2 teilles",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "blonde",
+        "BIERE": "goudale",
+        "VIN": "aucun",
+        "CONSO": "1-3 verres",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "blanche",
+        "BIERE": "chouffe",
+        "VIN": "chateau",
+        "CONSO": "3-7 verres",
+        "ADDITION": "5-15 €"
+    },
+    {
+        "PRESSION": "blonde",
+        "BIERE": "chouffe",
+        "VIN": "aucun",
+        "CONSO": "1-3 verres",
+        "ADDITION": "5-15 €"
+    }
+]

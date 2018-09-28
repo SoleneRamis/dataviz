@@ -65,13 +65,13 @@
 .bad {
     position: absolute;
     overflow: hidden;
-    width: 100%;
 }
 
 .blanche {
     height: 382px;
     top: 32vh;
     left: 240vw;
+    width: 19%;
 }
 
 .blonde {
@@ -79,18 +79,21 @@
     top: 45vh;
     left: 225vw;
     z-index: 11;
+    width: 13%;
 }
 
 .brune {
     height: 382px;
-    top: 49vh;
+    top: 46vh;
     left: 261vw;
+    width: 16%;
 }
 
 .bad {
     height: 382px;
     top: 22vh;
-    left: 200vw;
+    left: 197vw;
+    width: 26%;
 }
 
 .blanche .alcool,
@@ -134,7 +137,8 @@
 
 .blanche .liquid,
 .blonde .liquid,
-.brune .liquid {
+.brune .liquid,
+.bad .liquid {
     position: absolute;
     top: 1px;
     left: 1px;
@@ -155,5 +159,31 @@
 
 .brune .liquid {
     width: 222px;
-    height: 350px;
+    height: 227px;
+}
+
+.bad .liquid {
+    width: 90%;
+    height: 100%;
+    background: #c4261b;
+}
+
+.data-blanche {
+    top: 22vh;
+    left: 243vw;
+}
+
+.data-blonde {
+    top: 30vh;
+    left: 228vw;
+}
+
+.data-brune {
+    top: 32vh;
+    left: 265vw;
+}
+
+.data-bad {
+    top: 10vh;
+    left: 210vw;
 }
