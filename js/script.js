@@ -2,7 +2,7 @@ let songRemplis = new Audio()
 songRemplis.src = './assets/audio/remplissage.wav'
 
 let songVide = new Audio()
-songVide.src = './assets/audio/verrevidé.wav'
+songVide.src = './assets/audio/verrevide.wav'
 songVide.currentTime = 1
 
 let beerEvent = false
